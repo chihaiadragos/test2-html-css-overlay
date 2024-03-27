@@ -1,0 +1,46 @@
+html{
+    background-color: whitesmoke;
+}
+button{
+    margin-top: 400px;
+    font-size: xx-large;
+    cursor:grab;
+    transition-duration: 0.4s;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    border: 2px solid red;
+}
+button:hover{
+    background-color: red;
+    color: white;
+}
+.container{
+    display: flex;
+}
+
+#parent{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#div22{
+    position: absolute;
+    top: 40px;
+    left: 600px;
+}
+#div33{
+    position: absolute;
+    top: 150px;
+    left: 620px;
+}
+#div44{
+    position: absolute;
+    top: 170px;
+    left: 650px;
+}
+#final{
+    position: absolute;
+    top: 444px;
+    left: 222px;
+}
